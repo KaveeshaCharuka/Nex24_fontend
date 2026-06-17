@@ -6,8 +6,7 @@ import heroImg from './assets/hero.png';
 
 import LoginPage from './components/LoginPage';
 import HomePage from './components/HomePage';
-import AdminProfile from './components/AdminProfile';
-import ExaminerProfile from './components/ExaminerProfile';
+import AdminDashboard from './components/AdminDashboard';
 import StudentDashboard from './components/StudentDashboard';
 import RoleLoginPage from './components/RoleLoginPage';
 import SupportPage from './components/SupportPage';
@@ -22,10 +21,11 @@ import QuestionBank from './components/QuestionBank';
 import ExaminerExams from './components/ExaminerExams';
 import LiveMonitoring from './components/LiveMonitoring';
 
+
 function App() {
   return (
     <BrowserRouter>
-      <ExaminerProfile/>
+      <AdminDashboard/>
     </BrowserRouter>
   );
 }
