@@ -15,11 +15,17 @@ import MyCoursesPage from './components/MyCoursesPage';
 import HowitWorksPage from './components/HowItWorksPage';
 import FeaturesPage from './components/FeaturesPage';
 import GradesPage from './components/GradesPage';
+import SchedulePage from './components/SchedulePage';
+import StudyPlanPage from './components/StudyPlanPage';
+import ExaminerCourses from './components/ExaminerCourses';
+import QuestionBank from './components/QuestionBank';
+import ExaminerExams from './components/ExaminerExams';
+import LiveMonitoring from './components/LiveMonitoring';
 
 function App() {
   return (
     <BrowserRouter>
-      <FeaturesPage/>
+      <ExaminerProfile/>
     </BrowserRouter>
   );
 }
