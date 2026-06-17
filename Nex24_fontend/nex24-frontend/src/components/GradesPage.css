@@ -1,0 +1,97 @@
+/* GradesPage.css */
+.nex-page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  /* Dashboard එකේ වගේම මුළු ස්ක්‍රීන් එක පුරාම දිග ඇරෙන්න padding දුන්නා */
+  padding: 40px 60px; 
+  background: #080c14; 
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.nex-header {
+  margin-bottom: 35px;
+}
+
+.nex-header h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text-gradient {
+  color: #3b82f6; 
+}
+
+.nex-header p {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+/* Dashboard එකේ වගේම ලොකුවට හැදෙන Card එක */
+.nex-card {
+  width: 100%;
+  background: #0d1527; 
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  border-radius: 16px;
+  padding: 32px; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+
+.card-header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+/* Table Design */
+.nex-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.nex-table th {
+  padding: 18px;
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nex-table td {
+  padding: 22px 18px;
+  color: #e2e8f0;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nex-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.badge-blue {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-green {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
