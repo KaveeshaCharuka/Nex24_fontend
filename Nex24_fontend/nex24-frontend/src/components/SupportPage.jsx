@@ -1,6 +1,6 @@
 import React from 'react';
 import './SupportPage.css';
-
+import { Link } from 'react-router-dom';
 const SupportPage = () => {
   return (
     <div className="support-container">

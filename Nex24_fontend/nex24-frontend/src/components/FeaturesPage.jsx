@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturesPage.css';
 import { ShieldAlert, Fingerprint, Video, DatabaseZap, Clock3, BrainCircuit } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const FeaturesPage = () => {
   const allFeatures = [
     {
@@ -48,7 +48,7 @@ const FeaturesPage = () => {
       <nav className="feat-nav">
         <div className="logo"><span className="logo-icon">N</span> Nex24</div>
         <div className="nav-links">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           <a href="#features" className="active">Features</a>
           <a href="#how-it-works">How it Works</a>
         </div>
