@@ -1,7 +1,7 @@
 import React from 'react';
 import './HowItWorksPage.css';
 import { Target, ChartPie, UserPlus, ClipboardList, PenTool, CheckCircle } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const HowItWorksPage = () => {
   const steps = [
     {
@@ -36,7 +36,7 @@ const HowItWorksPage = () => {
       <nav className="feat-nav">
         <div className="logo"><span className="logo-icon">N</span> Nex24</div>
         <div className="nav-links">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           <a href="#features">Features</a>
           <a href="#how-it-works" className="active">How it Works</a>
         </div>

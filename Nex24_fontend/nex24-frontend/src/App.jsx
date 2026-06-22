@@ -20,12 +20,16 @@ import ExaminerCourses from './components/ExaminerCourses';
 import QuestionBank from './components/QuestionBank';
 import ExaminerExams from './components/ExaminerExams';
 import LiveMonitoring from './components/LiveMonitoring';
+import ManageUsers from './components/ManageUsers';
+import FaceIdConfig from './components/FaceIdConfig';
+import DatabaseManagement from './components/DatabaseManagement';
+import AdminAccount from './components/AdminAccount';
 
 
 function App() {
   return (
     <BrowserRouter>
-      <AdminDashboard/>
+      <AdminAccount/>
     </BrowserRouter>
   );
 }

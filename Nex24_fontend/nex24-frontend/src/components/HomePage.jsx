@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import { Link } from 'react-router-dom';
 import { Shield, Fingerprint, Video, Users } from 'lucide-react';
 
 const HomePage = () => {
@@ -11,11 +12,12 @@ const HomePage = () => {
           <span className="logo-icon">N</span> Nex24
         </div>
         <div className="nav-links">
-          <a href="#features">Features</a>
-          <a href="#how-it-works">How it Works</a>
-          <a href="#support">Support</a>
+          {/* 👈 a ටැග් වෙනුවට Link ටැග් යෙදුවා */}
+          <Link to="/features">Features</Link>
+          <Link to="/how-it-works">How it Works</Link>
+          <Link to="/support">Support</Link> {/* Support පිටුවක් නැති නිසා ඒක එහෙමම තිබ්බා */}
         </div>
-        <button className="nav-btn">Login / Register</button>
+        <Link to="/login"><button className="nav-btn">Login / Register</button></Link>
       </nav>
 
       {/* Hero Section */}
@@ -26,7 +28,10 @@ const HomePage = () => {
           </div>
           <h1>Welcome to <span className="highlight">Nex24</span>:<br/>The Smart Online Examination System.</h1>
           <p>Secure, seamless, and intelligent testing environment built for academic integrity.</p>
-          <button className="cta-btn">Get Started / Login</button>
+          {/* 👈 Hero section එකේ බටන් එකත් Link එකකින් ආවරණය කළා */}
+          <Link to="/login">
+            <button className="cta-btn">Get Started / Login</button>
+          </Link>
         </div>
       </div>
 

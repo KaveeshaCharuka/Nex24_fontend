@@ -14,7 +14,7 @@ function AdminDashboard() {
     { id: 102, name: "Nimali Rodrigo", email: "nimali@examiner.com", role: "Examiner", status: "Active" }
   ]);
 
-  // Face Recognition Tolerance State (පොඩි Interaction එකක් සඳහා)
+  // Face Recognition Tolerance State 
   const [threshold, setThreshold] = useState(0.60);
 
   const handleApprove = (id) => {
@@ -64,7 +64,7 @@ function AdminDashboard() {
           </div>
           <div className="admin-stat-card">
             <span className="stat-label">Database Status</span>
-            <span className="stat-number neon-blue">HEALTHY ✅</span>
+            <span className="stat-number neon-blue">HEALTHY </span>
           </div>
           <div className="admin-stat-card alert-card">
             <span className="stat-label">Pending Approvals</span>
@@ -72,7 +72,7 @@ function AdminDashboard() {
           </div>
         </div>
 
-        {/* 2. New Row: Face Recognition & Database Management (මෙන්න අලුත් කෑල්ල මචං) */}
+        {/* 2. New Row: Face Recognition & Database Management*/}
         <div className="admin-two-column-grid" style={{ marginBottom: '30px' }}>
           
           {/* Face Recognition Component */}

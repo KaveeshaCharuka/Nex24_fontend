@@ -1,6 +1,6 @@
 import React from 'react';
 import './LoginPage.css';
-
+import { Link } from 'react-router-dom';
 const LoginPage = () => {
   return (
     <div className="login-container">
@@ -33,7 +33,7 @@ const LoginPage = () => {
         </form>
         
         <div className="register-link">
-          New to Nex24? <a href="#register">Register Here</a>
+          New to Nex24? <Link to="/simple-login">register here</Link>
         </div>
         
         {/* Glowing Shield Icon (SVG format) */}
